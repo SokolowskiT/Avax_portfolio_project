@@ -48,7 +48,45 @@ h3 {
 	line-height: 30px;
 	font-weight: 600;
 }
-	
+
+.default_btn {
+	width: 194px;
+	height: 45px;
+	background-color: #b88b58;
+	border-radius: 25px;
+	border: none;
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 18px;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	cursor: pointer;
+}
+
+
+.dots {
+	position: absolute;
+	top: 794px;
+	left: calc(50% - (84px / 2));
+	line-height: 14px;
+}
+
+.dots .dot {
+    height: 14px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    border: solid 3px #b88b58;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dots .dot:hover {
+    background-color: #b88b58;
+}
 
 /* ------GRID------ */	
 .col-1 {width: 8.33%;}
@@ -75,15 +113,13 @@ header {
 
 .navbar{
 	height: 100px;
-background-color: #000000;
-	
+	background-color: #000000;
 }
 
 .navbar .logo {
 	width: 50px;
 	height: 51px;
 	margin: 22px 22px 27px 23px;
-
 }
 
 .navbar .menu {
@@ -226,41 +262,6 @@ width: 109.672px;
 	position: absolute;
 	top: 563px;
 	left: calc(50% - (194px / 2));
-	width: 194px;
-	height: 45px;
-	background-color: #b88b58;
-	border-radius: 25px;
-	border: none;
-	margin: 0;
-	padding: 0;
-	color: #ffffff;
-	font-size: 12px;
-	font-weight: 700;
-	line-height: 18px;
-	text-transform: uppercase;
-	font-family: 'Montserrat';
-	cursor: pointer;
-}
-
-.dots {
-	position: absolute;
-	top: 794px;
-	left: calc(50% - (84px / 2));
-	line-height: 14px;
-}
-
-.dots .dot {
-    height: 14px;
-    width: 15px;
-    border-radius: 50%;
-    display: inline-block;
-    border: solid 3px #b88b58;
-    margin: 0 5px;
-    cursor: pointer;
-}
-
-.dots .dot:hover {
-    background-color: #b88b58;
 }
 
 .telephone {
@@ -304,22 +305,8 @@ width: 109.672px;
 }
 
 .aboutUsText button {
-	width: 194px;
-	height: 45px;
-	background-color: #b88b58;
-	border-radius: 25px;
-	border: none;
-	margin: 0;
 	margin-top: 34px;
-	padding: 0;
 	margin-left: 15px;
-	color: #ffffff;
-	font-size: 12px;
-	font-weight: 700;
-	line-height: 18px;
-	text-transform: uppercase;
-	font-family: 'Montserrat';
-	cursor: pointer;
 }
 
 .aboutUs img {
@@ -374,7 +361,6 @@ width: 109.672px;
 
 .servicesContent p {
 	margin: 0;
-	mar gin-top: 13px;
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 21px;
@@ -384,3 +370,168 @@ width: 109.672px;
 	text-align: center;
 }
 
+
+/* ---- OUR PROJECTS ---- */
+
+#ourProjects {
+	background-color: #f7f7f7;
+}
+
+.ourProjectsMenu {
+	margin: 46px auto 38px auto;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	text-transform: uppercase;
+	list-style-type: none;
+	width: 710px;
+	height: 58px;
+	border: 1px solid #cfcfcf;
+	border-radius: 25px;
+	background-color: #ededed;
+}
+
+.ourProjectsMenu li {
+	position: relative;
+}
+
+/* .ourProjectsMenu li:nth-last-child(n+2):before {
+	content: '';
+	width: 1px;
+	height: 52px;
+	background-color: #cfcfcf;
+	position: absolute;
+	right: -10px;
+	margin-top: 2px;
+} */
+
+.line {
+	width: 1px;
+	height: 52px;
+	background-color: #cfcfcf;
+	margin-top: 2px;
+}
+
+.ourProjectsMenu a {
+	text-decoration: none;
+	color: #000000;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 58px;
+	text-transform: uppercase;
+}
+
+.ourProjectsMenu li:first-child {
+	margin-left: 51px;
+}
+
+.ourProjectsMenu li:last-child {
+	margin-right: 56px;
+}
+
+.ourProjectsMenu a:before {
+	content: '';
+	height: 5px;
+	margin: 0;
+	padding: 0;
+	background-color: #b88b58;
+	position: absolute;
+	bottom: 0;
+	display: none;
+	left: -16.571px;
+}
+
+a.ourProjectsMenuItem1:hover:before {
+	display: inline-block;
+	width: 59.392px;
+}
+
+a.ourProjectsMenuItem2:hover:before {
+	display: inline-block;
+	width: 94.001px;
+}
+
+a.ourProjectsMenuItem3:hover:before {
+	display: inline-block;
+	width: 112.939px;
+}
+
+a.ourProjectsMenuItem4:hover:before {
+	display: inline-block;
+	width: 99.236px;
+}
+
+a.ourProjectsMenuItem5:hover:before {
+	display: inline-block;
+	width: 144.345px;
+}
+
+a.ourProjectsMenuItem6:hover:before {
+	display: inline-block;
+	width: 69.22px;
+}
+
+.ourProjectsGallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	padding-right: 15px;
+	padding-left: 15px;
+	
+}
+
+.ourProjectsGalleryItem {
+	width: 255px;
+	height: 165px;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.ourProjectsGalleryItem .layer, .ourProjectsGalleryItem img {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.ourProjectsGalleryItem .layer {
+	width: 255px;
+	height: 165px;
+	background-color: #000000;
+	color: #ffffff;
+	font-family: Montserrat;
+	text-align: center;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .2s, visibility .2s;
+	cursor: pointer;
+}
+
+.ourProjectsGalleryItem .layer h5 {
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 18px;
+	text-transform: uppercase;
+	margin: 0;
+	margin-top: 44px;
+}
+
+.ourProjectsGalleryItem .layer p {
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 21px;
+	margin-left: 36px;
+	margin-right: 37px;
+}
+
+.ourProjectsGalleryItem:hover .layer{
+	visibility: visible;
+	opacity: 0.75;
+}
+
+.moreProjects_btn {
+	margin-bottom: 56px;
+	display: inline-block;
+	margin-left: calc(50% - (194px / 2));
+}
