@@ -34,7 +34,7 @@ h2 {
 	color: #000000;
 	margin:0;
 	padding-top: 63px;
-	padding-bottom: 8px;
+	padding-bottom: 4px;
 	text-align: center;
 }
 
@@ -68,13 +68,10 @@ h3 {
 
 
 .dots {
-	position: absolute;
-	top: 794px;
-	left: calc(50% - (84px / 2));
 	line-height: 14px;
 }
 
-.dots .dot {
+.dot {
     height: 14px;
     width: 15px;
     border-radius: 50%;
@@ -84,7 +81,7 @@ h3 {
     cursor: pointer;
 }
 
-.dots .dot:hover {
+.dot:hover {
     background-color: #b88b58;
 }
 
@@ -279,6 +276,12 @@ width: 109.672px;
 	width: 40px;
 	height: 40px;
 	margin: 12px;
+}
+
+.jumbo .dots {
+	position: absolute;
+	top: 794px;
+	left: calc(50% - (84px / 2));
 }
 
 /* ---- ABOUT US ---- */
@@ -534,4 +537,76 @@ a.ourProjectsMenuItem6:hover:before {
 	margin-bottom: 56px;
 	display: inline-block;
 	margin-left: calc(50% - (194px / 2));
+}
+
+/* ---- OUR TEAM ---- */
+
+.ourTeamBox {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 34px;
+	margin-bottom: 53px;
+}
+
+.ourTeamItem {
+	margin: 0 15px;
+	padding: 0;
+	text-align: center;
+	background-color: #ffffff;
+	border-radius: 5px;
+}
+
+.ourTeamItem img {
+	width: 183px;
+	height: 183px;
+	margin-top: 45px;
+}
+
+.ourTeamItem h4 {
+	color: #242424;
+	font-family: Montserrat;
+	font-size: 21px;
+	font-weight: 600;
+	line-height: 21px;
+	text-transform: uppercase;
+	margin: 0;
+	margin-top: 38px;
+}
+
+.ourTeamItem p {
+	font-size: 14px;
+	color: #242424;
+	font-family: Montserrat;
+	font-weight: 300;
+	line-height: 24px;
+	margin: 0;
+	margin-top: 6px;
+}
+
+.socialIcons {
+	margin-top: 30px;
+	margin-bottom: 43px;
+	display: flex;
+	justify-content: center;
+}
+
+.social_btn {
+	width: 33px;
+	height: 33px;
+	background-color: #bebebe;
+	border-radius: 25px;
+	border: none;
+	margin: 0 3px;
+	padding: 0;
+	cursor: pointer;
+	color: #ffffff;
+}
+
+.social_btn:hover {
+	background-color: #b88b58;
+}
+
+.ourTeam .dots {
+	padding-bottom: 43px;
+	text-align: center;
 }
