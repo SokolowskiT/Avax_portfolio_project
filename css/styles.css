@@ -655,8 +655,14 @@ a.ourProjectsMenuItem6:hover:before {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-bottom: 52px;
-	margin-top: 44px;
+	flex-wrap: wrap;
+	margin-bottom: 42px;
+	margin-top: 34px;
+}
+
+.clientsLogos img {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .clientsLogos:first-child {
@@ -669,4 +675,79 @@ a.ourProjectsMenuItem6:hover:before {
 
 /* ---- PRICE ---- */
 
+#price {
+	background-color: #ededed;
+}
+
+.price h2 {
+	padding-top: 58px;
+}
+
+.priceBox {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin-top: 37px;
+	margin-bottom: 61px;
+}
+
+.priceItem {
+	margin: 0 15px;
+	padding: 0;
+	background-color: #ffffff;
+	border-radius: 5px;
+}
+
+.priceItem h4 {
+	margin: 0;
+	margin-top: 30px;
+	color: #242424;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	text-transform: uppercase;
+}
+
+.priceItem h5 {
+	color: #242424;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 21px;
+	text-transform: uppercase;
+	letter-spacing: 4.8px;
+	margin: 0;
+	margin-top: 13px;
+}
+
+.priceItem h6 {
+	color: #aeaeae;
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	margin: 0;
+}
+
+.priceItem p {
+	color: #7e7e7e;
+	font-size: 10px;
+	font-weight: 400;
+	line-height: 13px;
+	margin: 0;
+	margin-top: 13px;
+}
+
+.choose_btn {
+	width: 129px;
+	background-color: #373737;
+	margin-top: 28px;
+	margin-bottom: 31px;
+}
+
+.choose_btn:hover {
+	background-color: #b88b58;
+}
+
+/* ---- PREMIUM ---- */
 
