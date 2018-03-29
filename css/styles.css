@@ -833,3 +833,63 @@ a.ourProjectsMenuItem6:hover:before {
 	margin-bottom: 60px;
 	margin-left: calc(50% - (194px / 2));
 }
+
+/* ---- SOME FACTS ---- */
+
+#someFacts {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.someFactsBox {
+	display: flex;
+	margin-top: 57px;
+	margin-bottom: 75px;
+	text-align: center;
+}
+
+.someFactsBoxItem {
+	margin-left: 15px;
+	margin-right: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.someFactsBoxItem h4 {
+	color: #b88b58;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 30px;
+	margin: 0;
+}
+
+.dash {
+	width: 21px;
+	height: 4px;
+	background-color: #7e7e7e;
+	margin-left: calc(50% - (21px / 2));
+	margin-top: 14px;
+	margin-bottom: 8px;
+}
+
+.someFactsBoxItem h5 {
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 17px;
+	margin: 0;
+}
+
+.someFactsBoxItem p {
+	color: #7e7e7e;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 21px;
+	margin: 0;
+	margin-top: 22px;
+	margin-bottom: 3px;
+}
+
+/* ---- CONTACT US ---- */
+
