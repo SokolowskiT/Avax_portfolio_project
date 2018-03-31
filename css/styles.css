@@ -31,20 +31,27 @@ h2 {
 	line-height: 30px;
 	text-transform: uppercase;
 	margin:0;
-	padding-top: 63px;
 	padding-bottom: 4px;
 	text-align: center;
 }
 
 h3 {
-	margin: 0;
-	color: #aeaeae;
 	font-size: 14px;
-	text-transform: uppercase;
-	text-align: center;
-	line-height: 30px;
+	color: #aeaeae;
 	font-weight: 600;
+	line-height: 30px;
+	text-transform: uppercase;
+	margin: 0;
+	text-align: center;	
 }
+
+.default_p14 {
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 25px;
+	margin: 0;
+	padding: 0;
+	} 
 
 .default_btn {
 	width: 194px;
@@ -60,6 +67,7 @@ h3 {
 	line-height: 18px;
 	text-transform: uppercase;
 	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .dots {
@@ -186,6 +194,7 @@ h3 {
 	box-shadow: 0 3px 8px rgba(0, 0, 1, 0.24);
 	background-color: #b88b58;
 	border-radius: 50%;
+	border: none;
 }
 
 .telephoneIcon {
@@ -204,30 +213,30 @@ h3 {
 
 #aboutUs {
 	background-color: #f7f7f7;
+	padding-top: 60px;
+	padding-bottom: 92px;
 }
 
 .aboutUsContent {
 	display: flex;
+	justify-content: space-between;
 	margin-top: 42px;
-	margin-bottom: 92px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.aboutUsText {
+	padding-bottom: 52px;
+	display: flex;
+	flex-direction: column;
 	justify-content: space-between;
 }
 
 .aboutUsText p {
-	padding: 0 17px 0 14px;
 	color: #242424;
-	font-size: 14px;
-	font-weight: 300;
-	line-height: 25px;
-	margin: 0;
 }
 
-.aboutUsText button {
-	margin-top: 34px;
-	margin-left: 15px;
-}
-
-.aboutUs img {
+.aboutUs_img {
 	width: 445px;
 	height: 275px;
 	box-shadow: 0 13px 24px rgba(0, 0, 1, 0.42);
