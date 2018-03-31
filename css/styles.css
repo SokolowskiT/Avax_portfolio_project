@@ -106,7 +106,9 @@ h3 {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+
 /* ---- HOME ---- */
+
 
 #home {
 	height: 850px;
@@ -209,7 +211,9 @@ h3 {
 	left: calc(50% - (84px / 2));
 }
 
+
 /* ---- ABOUT US ---- */
+
 
 #aboutUs {
 	background-color: #f7f7f7;
@@ -248,6 +252,8 @@ h3 {
 
 #services {
 	background-color: #000000;
+	padding-top: 60px;
+	padding-bottom: 43px;
 }
 
 .services h2 {
@@ -255,34 +261,61 @@ h3 {
 }
 
 .servicesContent {
-	margin-top: 47px;
+	margin-top: 42px;
 	display: flex;
 	justify-content: space-between;
 	text-align: center;
+	list-style-type: none;
+	padding: 0;
 }
 
-.verticalLine {
-	width: 2px;
-	height: 210px;
-	background-color: #383838;
-	margin-bottom: 43px;
+.servicesContentItem {
+	border-right: 2px solid #383838;
+	padding-top: 9px;
+	padding-bottom: 18px;
+} 
+
+.servicesContent li:first-child {
+	border-left: 2px solid #383838;
 }
 
-.servicesContent img {
+.servicesImg {
 	width: 65px;
-	height: 66px;
-	margin-top: 9px;
+	height: 65px;
+	display: inline-block;
+}
+
+.highQualityDesign {
+	background-image: url(../images/Services/high_quality_design.png);
+	background-repeat: no-repeat;
+	background-position: 3px 3.5px;
+}
+
+.modernDesign {
+	background-image: url(../images/Services/modern_design.png);
+	background-repeat: no-repeat;
+}
+
+.regularUpdates {
+	background-image: url(../images/Services/regular_updates.png);
+	background-repeat: no-repeat;
+	background-position: 3px 3px;
+}
+
+.support {
+	background-image: url(../images/Services/support.png);
+	background-repeat: no-repeat;
+	background-position: 3.5px 3.5px;
 }
 
 .servicesContent h4 {
-	margin:0;
+	margin: 0;
+	padding-top: 38px;
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 18px;
-	padding-top: 38px;
 	color: #ffffff;
 	text-transform: uppercase;
-	text-align: center;
 }
 
 .servicesContent p {
@@ -290,11 +323,8 @@ h3 {
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 21px;
-	text-transform: none;
 	color: #7e7e7e;
-	text-align: center;
 }
-
 
 /* ---- OUR PROJECTS ---- */
 
