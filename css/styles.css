@@ -508,76 +508,54 @@ h4 {
 
 /* ---- OUR CLIENTS ---- */
 
+
 #happyClients {
 	background-color: #f7f7f7;
+	padding-top: 62px;
+	padding-bottom: 43px;
 }
 
 .happyClients {
+	margin-top: 67px;
 	text-align: center;
 	color: #000000;
 }
 
-.happyClientsImage {
-	margin-top: 67px;
-}
-
-.happyClients h4 {	
+.happyClients h5 {	
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 18px;
 	margin: 24px 0 14px 0;
 }
 
-.happyClients h5 {
+.happyClients h6 {
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 18px;
-	margin: 0;
-	margin-bottom: 29px;
+	margin: 0 0 29px;
 }
 
 .happyClients p {
+	width: 45.5%;
 	color: #7e7e7e;
-	font-size: 14px;
-	font-weight: 300;
-	line-height: 25px;
-	margin-top: 8px; 
-	margin-left: calc(50% - (728px / 2));
-	margin-right: calc(50% - (728px / 2));
-	margin-bottom: 45px;
-}
-
-.happyClients .dots {
-	margin-bottom: 42px;
-}
-
-#clients {
-	background-color: #ffffff;
-	border-top: 1px solid #cfcfcf;
-	border-bottom: 1px solid #cfcfcf;
+	margin: 8px auto 45px;
 }
 
 .clientsLogos {
+	background-color: #ffffff;
+	border-top: 1px solid #cfcfcf;
+	border-bottom: 1px solid #cfcfcf;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
 	flex-wrap: wrap;
-	margin-bottom: 42px;
-	margin-top: 34px;
+	padding: 34px 0 42px;
 }
 
 .clientsLogos img {
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin: 10px 45px;
 }
 
-.clientsLogos:first-child {
-	margin-left: 53px;
-}
-
-.clientsLogos:last-child {
-	margin-right: 50px;
-}
 
 /* ---- PRICE ---- */
 
