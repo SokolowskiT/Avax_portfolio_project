@@ -559,32 +559,29 @@ h4 {
 
 /* ---- PRICE ---- */
 
+
 #price {
 	background-color: #ededed;
-}
-
-.price h2 {
-	padding-top: 58px;
+	padding: 58px 0 62px;
 }
 
 .priceBox {
 	display: flex;
-	justify-content: space-between;
+	flex-wrap: wrap;
+	justify-content: center;
 	text-align: center;
 	margin-top: 37px;
-	margin-bottom: 61px;
 }
 
 .priceItem {
 	margin: 0 15px;
-	padding: 0;
+	padding: 31px 63px 33px;
 	background-color: #ffffff;
 	border-radius: 5px;
 }
 
-.priceItem h4 {
+.priceItem h5 {
 	margin: 0;
-	margin-top: 30px;
 	color: #242424;
 	font-size: 14px;
 	font-weight: 400;
@@ -592,46 +589,46 @@ h4 {
 	text-transform: uppercase;
 }
 
-.priceItem h5 {
+.priceItem h4 {
 	color: #242424;
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 21px;
-	text-transform: uppercase;
 	letter-spacing: 4.8px;
-	margin: 0;
 	margin-top: 13px;
 }
 
-.priceItem h6 {
+.priceItem p {
 	color: #aeaeae;
 	font-size: 10px;
 	font-weight: 400;
-	line-height: 25px;
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
-	margin: 0;
 }
 
-.priceItem p {
+.priceItem ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 10px 0 28px;
+}
+
+.priceItem li {
 	color: #7e7e7e;
 	font-size: 10px;
 	font-weight: 400;
 	line-height: 13px;
 	margin: 0;
-	margin-top: 13px;
 }
 
 .choose_btn {
 	width: 129px;
 	background-color: #373737;
-	margin-top: 28px;
-	margin-bottom: 31px;
 }
 
 .choose_btn:hover {
 	background-color: #b88b58;
 }
+
 
 /* ---- PREMIUM ---- */
 
