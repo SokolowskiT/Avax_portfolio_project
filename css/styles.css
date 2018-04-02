@@ -77,6 +77,7 @@ h4 {
 	text-transform: uppercase;
 	cursor: pointer;
 	font-family: 'Montserrat', sans-serif;
+	display: block;
 }
 
 .round_btn {
@@ -156,14 +157,12 @@ h4 {
 	background-image: url(../images/Home/logo.png);
 	width: 50px;
 	height: 51px;
-	margin-top: 24.5px;
-	margin-bottom: 24.5px;
+	margin: 24.5px 0;
 }
 
 .menu {
 	list-style-type: none;
-	margin: 0;
-	margin-left: 4%;
+	margin: 0 0 0 4%;
 	padding: 0;
 	display: flex;
 	justify-content: space-between;
@@ -185,8 +184,7 @@ h4 {
 
 .jumboTextHeader {
 	display: block;
-	margin-top: 246px;
-	margin-bottom: 29px;
+	margin: 246px 0 29px;
 	font-size: 72px;
 	font-weight: 700;
 	text-align: center; 
@@ -199,8 +197,7 @@ h4 {
 
 .jumboTextCall {
 	display: block;
-	margin: 0; 
-	margin-bottom: 49px;
+	margin: 0 0 49px; 
 	font-size: 24px;
 	font-weight: 600;
 	line-height: 18px;
@@ -232,16 +229,14 @@ h4 {
 
 #aboutUs {
 	background-color: #f7f7f7;
-	padding-top: 60px;
-	padding-bottom: 92px;
+	padding: 60px 0 92px;
 }
 
 .aboutUsContent {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 42px;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding: 0 15px;
 }
 
 .aboutUsText {
@@ -267,8 +262,7 @@ h4 {
 
 #services {
 	background-color: #000000;
-	padding-top: 60px;
-	padding-bottom: 43px;
+	padding: 60px 0 43px;
 }
 
 .services h2 {
@@ -286,8 +280,7 @@ h4 {
 
 .servicesContentItem {
 	border-right: 2px solid #383838;
-	padding-top: 9px;
-	padding-bottom: 18px;
+	padding: 9px 0 18px;
 } 
 
 .servicesContent li:first-child {
@@ -298,28 +291,25 @@ h4 {
 	width: 65px;
 	height: 65px;
 	display: inline-block;
+	background-repeat: no-repeat;
 }
 
 .highQualityDesign {
 	background-image: url(../images/Services/high_quality_design.png);
-	background-repeat: no-repeat;
 	background-position: 3px 3.5px;
 }
 
 .modernDesign {
 	background-image: url(../images/Services/modern_design.png);
-	background-repeat: no-repeat;
 }
 
 .regularUpdates {
 	background-image: url(../images/Services/regular_updates.png);
-	background-repeat: no-repeat;
 	background-position: 3px 3px;
 }
 
 .support {
 	background-image: url(../images/Services/support.png);
-	background-repeat: no-repeat;
 	background-position: 3.5px 3.5px;
 }
 
@@ -339,8 +329,7 @@ h4 {
 
 #ourProjects {
 	background-color: #f7f7f7;
-	padding-top: 60px;
-	padding-bottom: 56px;
+	padding: 60px 0 56px;
 }
 
 .ourProjects {
@@ -374,8 +363,7 @@ h4 {
 }
 
 .ourProjectsMenu a {
-	padding-left: 21px;
-	padding-right: 21px;
+	padding: 0 21px;
 	margin: 0 2px -3px;
 	text-decoration: none;
 	color: #000000;
@@ -447,8 +435,7 @@ h4 {
 	background-image: url(../images/Our_Team/bg-image-our-team.jpg);
 	background-position: center top;
     background-size: cover;
-    padding-top: 63px;
-    padding-bottom: 43px;
+    padding: 63px 0 43px;
 }
 
 .ourTeamBox {
@@ -511,8 +498,7 @@ h4 {
 
 #happyClients {
 	background-color: #f7f7f7;
-	padding-top: 62px;
-	padding-bottom: 43px;
+	padding: 62px 0 43px;
 }
 
 .happyClients {
@@ -525,7 +511,7 @@ h4 {
 	font-size: 24px;
 	font-weight: 700;
 	line-height: 18px;
-	margin: 24px 0 14px 0;
+	margin: 24px 0 14px;
 }
 
 .happyClients h6 {
@@ -562,7 +548,7 @@ h4 {
 
 #price {
 	background-color: #ededed;
-	padding: 58px 0 62px;
+	padding: 58px 0 47px;
 }
 
 .priceBox {
@@ -570,11 +556,11 @@ h4 {
 	flex-wrap: wrap;
 	justify-content: center;
 	text-align: center;
-	margin-top: 37px;
+	margin-top: 22px;
 }
 
 .priceItem {
-	margin: 0 15px;
+	margin: 15px;
 	padding: 31px 63px 33px;
 	background-color: #ffffff;
 	border-radius: 5px;
@@ -632,88 +618,83 @@ h4 {
 
 /* ---- PREMIUM ---- */
 
+
 #premium {
 	background-color: #ffffff;
 	border-top: 1px solid #cfcfcf;
 	border-bottom: 1px solid #cfcfcf;
-}
-
-.premium h2 {
-	padding-top: 60px;
+	padding: 64px 0 60px;
 }
 
 .premiumBox {
-	margin-top: 29px;
-	margin-bottom: 26px;
+	margin: 14px 0 37px;
+	padding-bottom: 11px;
 	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	border-bottom: 1px solid #bebebe;
 }
 
 .premiumBox_img {
 	width: 445px;
 	height: 378px;
-	margin-left: 15px;
-	margin-right: 15px;
+	margin: 15px;
 }
 
 .premiumBoxContent {
-	margin-left: 15px;
-	margin-right: 15px;
-	margin-top: 22px;
-	margin-bottom: 21px;
+	margin: 15px;
+	padding: 24px 0 19px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
 
-.premiumBoxContentItem {
-	display: flex;
-}
-
-.premiumBoxContentItem img {
+.premiumIcon {
+	background-image: url(../images/Premium/premium_icon.png);
+	background-repeat: no-repeat;
 	width: 34px;
 	height: 30px;
-	margin-left: 45px;
+	margin: 0 15px;
 }
 
-.premiumBoxContentItemText {
-	margin-left: 30px;
-	margin-right: 95px;
+ .premiumBoxContentItem {
+	display: flex;
+	margin-top: 15px;
 }
 
-.premiumBoxContentItemText h4 {
+.premiumBoxContentItem h4 {
 	color: #242424;
 	font-size: 21px;
 	font-weight: 700;
 	line-height: 21px;
-	text-transform: uppercase;
-	margin: 0;
+	margin: 0 15px;
 }
 
-.premiumBoxContentItemText p {
+.premiumBoxContentItemText {
+	margin-left: 79px;
 	color: #5b5b5b;
-	font-size: 14px;
-	font-weight: 300;
-	line-height: 30px;
+}
+
+.premiumBoxContentItemText ul {
+	list-style: none;
 	margin: 0;
+	padding: 0;
 }
 
-.premiumLine {
-	width: 1111px;
-	height: 1px;
-	background-color: #bebebe;
-	margin-left: calc(50% - (1111px / 2));
+.premiumBoxContentItemText li {
+	line-height: 30px;
+	text-transform: uppercase;
 }
 
-.premium .dots {
-	margin-top: 37px;
+#premium .dots {
 	margin-bottom: 40px;
 	text-align: center;
 }
 
-.premium .default_btn {
-	margin-bottom: 60px;
-	margin-left: calc(50% - (194px / 2));
-}
+#premium .default_btn {
+	margin:0 auto;
+} 
+
 
 /* ---- SOME FACTS ---- */
 
