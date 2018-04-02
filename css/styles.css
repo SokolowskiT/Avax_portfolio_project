@@ -79,8 +79,20 @@ h4 {
 	font-family: 'Montserrat', sans-serif;
 }
 
+.round_btn {
+	width: 65px;
+	height: 65px;
+	box-shadow: 0 3px 8px rgba(0, 0, 1, 0.24);
+	background-color: #b88b58;
+	border-radius: 50%;
+	border: none;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
 .dots {
 	line-height: 14px;
+	text-align: center;
 }
 
 .dot {
@@ -90,11 +102,15 @@ h4 {
     display: inline-block;
     border: solid 3px #b88b58;
     margin: 0 5px;
-    cursor: pointer;
 }
 
 .dots .dot:first-child {
 	background-color: #b88b58;
+	margin-left: 0;
+}
+
+.dots .dot:last-child {
+	margin-right: 0;
 }
 
 .dot:hover {
@@ -200,24 +216,14 @@ h4 {
 	position: absolute;
 	top: 819px;
 	right: 85px;
-	width: 65px;
-	height: 65px;
-	box-shadow: 0 3px 8px rgba(0, 0, 1, 0.24);
-	background-color: #b88b58;
-	border-radius: 50%;
-	border: none;
-}
-
-.telephoneIcon {
 	background-image: url(../images/Home/telephone.png);
-	background-repeat: no-repeat;
 	background-position: 12px 12px;
 }
 
 #home .dots {
 	position: absolute;
 	top: 794px;
-	left: calc(50% - (83.41px / 2));
+	margin-left: calc(50% - (73.41px / 2));
 }
 
 
@@ -345,7 +351,7 @@ h4 {
 }
 
 .ourProjectsMenu {
-	margin: 0 25px 38px;
+	margin: 0 25px 23px;
 	padding: 3px 22px;
 	display: flex;
 	justify-content: center;
@@ -386,17 +392,16 @@ h4 {
 .ourProjectsGallery {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
-	padding-right: 15px;
-	padding-left: 15px;
-	margin: 0;
+	justify-content: center;
+	margin: 0 0 15px;
+	padding: 0;
 	list-style-type: none;
 }
 
 .ourProjectsGalleryItem {
 	width: 255px;
 	height: 165px;
-	margin-bottom: 30px;
+	margin: 15px;
 	position: relative;
 }
 
@@ -437,55 +442,45 @@ h4 {
 
 /* ---- OUR TEAM ---- */
 
+
 #ourTeam {
 	background-image: url(../images/Our_Team/bg-image-our-team.jpg);
 	background-position: center top;
     background-size: cover;
+    padding-top: 63px;
+    padding-bottom: 43px;
 }
 
 .ourTeamBox {
 	display: flex;
-	justify-content: space-between;
-	margin-top: 34px;
-	margin-bottom: 53px;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 21px 0;
 }
 
 .ourTeamItem {
-	margin: 0 15px;
-	padding: 0;
+	margin: 15px;
+	padding: 48px 42px 43px;
 	text-align: center;
 	background-color: #ffffff;
 	border-radius: 5px;
+	color: #242424;
 }
 
 .ourTeamItem img {
 	width: 183px;
 	height: 183px;
-	margin-top: 45px;
 }
 
 .ourTeamItem h4 {
 	color: #242424;
 	font-size: 21px;
-	font-weight: 600;
 	line-height: 21px;
-	text-transform: uppercase;
-	margin: 0;
-	margin-top: 38px;
-}
-
-.ourTeamItem p {
-	font-size: 14px;
-	color: #242424;
-	font-weight: 300;
-	line-height: 24px;
-	margin: 0;
-	margin-top: 6px;
+	margin: 38px 0 6px;
 }
 
 .socialIcons {
 	margin-top: 30px;
-	margin-bottom: 43px;
 	display: flex;
 	justify-content: center;
 }
@@ -507,9 +502,9 @@ h4 {
 }
 
 .ourTeam .dots {
-	padding-bottom: 43px;
-	text-align: center;
+	margin: 0 auto;
 }
+
 
 /* ---- OUR CLIENTS ---- */
 
@@ -1014,23 +1009,12 @@ h4 {
 	margin-left: 17px;
 }
 
-.arrowUp{
-	width: 65px;
-	height: 65px;
-	box-shadow: 0 3px 8px rgba(0, 0, 1, 0.24);
-	background-color: #b88b58;
-	border: none;
-	border-radius: 50%;
+.arrowIcon {
+	background-image: url(../images/Map/scrollup.png);
+	background-position: 16px 21px;
 	position: absolute;
 	left: 92px;
 	bottom: -32.5px;
-
-}
-
-.arrowIcon {
-	background-image: url(../images/Map/scrollup.png);
-	background-repeat: no-repeat;
-	background-position: 16px 21px;
 }
 
 /* ---- FOOTER ---- */
