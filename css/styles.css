@@ -698,21 +698,24 @@ h4 {
 
 /* ---- SOME FACTS ---- */
 
+
 #someFacts {
 	background-color: #000000;
 	color: #ffffff;
+	padding: 58px 0 81px;
 }
 
 .someFactsBox {
 	display: flex;
-	margin-top: 57px;
-	margin-bottom: 75px;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 47px;
 	text-align: center;
 }
 
 .someFactsBoxItem {
-	margin-left: 15px;
-	margin-right: 15px;
+	margin: 10px 0;
+	padding: 0 55px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -722,36 +725,31 @@ h4 {
 	color: #b88b58;
 	font-size: 48px;
 	font-weight: 700;
-	line-height: 30px;
-	margin: 0;
+	line-height: 28px;
 }
 
 .dash {
 	width: 21px;
 	height: 4px;
 	background-color: #7e7e7e;
-	margin-left: calc(50% - (21px / 2));
-	margin-top: 14px;
-	margin-bottom: 8px;
+	margin: 14px auto 8px;
 }
 
 .someFactsBoxItem h5 {
 	font-size: 18px;
 	font-weight: 600;
 	text-transform: uppercase;
-	line-height: 17px;
+	line-height: 24px;
 	margin: 0;
 }
 
 .someFactsBoxItem p {
 	color: #7e7e7e;
 	font-size: 12px;
-	font-weight: 300;
 	line-height: 21px;
-	margin: 0;
 	margin-top: 22px;
-	margin-bottom: 3px;
 }
+
 
 /* ---- TELL ABOUT US ---- */
 
