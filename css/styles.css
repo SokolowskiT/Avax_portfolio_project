@@ -160,8 +160,8 @@ h4 {
 .logo {
 	background-image: url(../images/Home/logo.png);
 	width: 50px;
-	height: 51px;
-	margin: 24.5px 0;
+	height: 50px;
+	margin: 24px 0;
 }
 
 .menu {
@@ -173,7 +173,7 @@ h4 {
 }
 
 .menu a {
-	padding: 40.5px 7.5px 35.5px;
+	padding: 40px 7.5px 35px;
 	text-decoration: none;
 	font-size: 14px;
 	font-weight: 700;
@@ -269,7 +269,7 @@ h4 {
 	padding: 60px 0 43px;
 }
 
-.services h2 {
+#services h2 {
 	color: #ffffff;
 }
 
@@ -1002,4 +1002,295 @@ h4 {
 
 .subscribeForm input[type=submit] {
 	margin: 28px auto 0;
+}
+
+
+
+@media(min-width: 992px) and (max-width: 1140px) {
+
+/* ------GRID------ */	
+	.col-md-1 {width: 8.33%;}
+	.col-md-2 {width: 16.66%;}
+	.col-md-3 {width: 25%;}
+	.col-md-4 {width: 33.33%;}
+	.col-md-5 {width: 41.66%;}
+	.col-md-6 {width: 50%;}
+	.col-md-7 {width: 58.33%;}
+	.col-md-8 {width: 66.66%;}
+	.col-md-9 {width: 75%;}
+	.col-md-10 {width: 83.33%;}
+	.col-md-11 {width: 91.66%;}
+	.col-md-12 {width: 100%;}
+
+/* ------ SERVICES ------ */	
+
+	.servicesContent {
+		justify-content: center;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.servicesContentItem {
+		padding: 9px 30px 9px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	} 
+
+	.servicesImg {
+		padding-bottom: 15px;
+	}
+	
+	.servicesContentItem p {
+		padding-top: 15px;
+	}
+
+/* ------ CLIENTS ------ */	
+
+	#clients img {
+		margin: 10px 30px;
+	}
+
+/* ------ SOME FACTS ------ */
+
+	.someFactsBoxItem {
+		padding: 0 10px;
+	}
+
+	.dash {
+		margin: 20px auto;
+	}
+
+	.someFactsBoxItem p {
+		margin-top: 12px;
+	}
+
+/* ------ FOOTER ------ */
+
+	.subscribeForm {
+		justify-content: center;
+	}
+
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+
+/* ------GRID------ */	
+	.col-sm-1 {width: 8.33%;}
+	.col-sm-2 {width: 16.66%;}
+	.col-sm-3 {width: 25%;}
+	.col-sm-4 {width: 33.33%;}
+	.col-sm-5 {width: 41.66%;}
+	.col-sm-6 {width: 50%;}
+	.col-sm-7 {width: 58.33%;}
+	.col-sm-8 {width: 66.66%;}
+	.col-sm-9 {width: 75%;}
+	.col-sm-10 {width: 83.33%;}
+	.col-sm-11 {width: 91.66%;}
+	.col-sm-12 {width: 100%;}
+
+/* ------HOME------ */	
+
+	.navigation {
+		justify-content: space-around;
+	}
+
+	.logo {
+		margin: 15px 0;
+	}
+
+	.menu {
+		margin-left: 5px;
+	}
+
+	.menu a {
+		padding: 33px 5px 27px;
+		font-size: 11px;
+	}
+
+	.jumboTextHeader {
+		font-size: 65px;
+	}
+
+/* ------ ABOUT US ------ */	
+
+	.aboutUsContent {
+		justify-content: center;
+		flex-wrap: wrap-reverse;
+	}
+	
+	.aboutUsText {
+		padding: 0;
+		text-align: justify;
+	}
+	
+	.aboutUsText button {
+		margin:15px auto 0;
+	}
+
+	.aboutUs_img {
+		margin-bottom: 35px;
+	}
+
+/* ------ SERVICES ------ */
+
+	.servicesContent {
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 32px;
+	}
+
+	.servicesContentItem {
+		margin: 10px 0;
+		padding: 9px 10px 18px;
+	}
+	
+	.servicesContent li:nth-child(3) {
+		border-left: 2px solid #383838;
+	}
+
+/* ------ SOME FACTS ------ */
+
+	#someFacts {
+		padding: 58px 0 61px;
+	}
+
+	.someFactsBox {
+		margin-top: 37px;
+	}
+
+	.someFactsBoxItem {
+		margin: 20px 0;
+	}
+
+/* ------ MAP ------ */
+
+	.mapContentBox {
+		padding: 40px 27px;
+		margin: 0 30px;
+	}
+
+	.round_btn {
+		width: 55px;
+		height: 55px;
+		bottom: -27.5px;
+		background-position: 11px 16px;
+	}
+
+/* ------ FOOTER ------ */
+
+	#footer {
+		padding: 32px 0 10px;
+	}
+
+	.footer {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.footerText {
+		text-align: justify;
+		order: 0;
+	}
+
+	.subscribeForm {
+		order: 1;
+		padding: 51px 40px 46px;
+	}
+
+	.footer div:first-child {
+		order: 2;
+		margin: 15px 30px;
+		flex-direction: row-reverse;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.footerItem {
+		justify-content: center;
+	}
+
+}
+
+@media(max-width: 767px) {
+
+/* ------GRID------ */	
+	.col-xs-1 {width: 8.33%;}
+	.col-xs-2 {width: 16.66%;}
+	.col-xs-3 {width: 25%;}
+	.col-xs-4 {width: 33.33%;}
+	.col-xs-5 {width: 41.66%;}
+	.col-xs-6 {width: 50%;}
+	.col-xs-7 {width: 58.33%;}
+	.col-xs-8 {width: 66.66%;}
+	.col-xs-9 {width: 75%;}
+	.col-xs-10 {width: 83.33%;}
+	.col-xs-11 {width: 91.66%;}
+	.col-xs-12 {width: 100%;}
+
+/* ------HOME------ */	
+
+.menu {
+	display: none;
+}
+
+.navigation {
+	justify-content: space-between;
+	padding: 0 100px 0 30px;
+}
+
+.logo {
+	margin: 5px 0;
+}
+
+.menu-xs, .menu-xs li {
+	list-style: none;
+	padding: 0;
+	margin:0;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.menu-xs li {
+	display: inline-block;
+	transition-duration: 1000ms;
+	position: relative;
+}
+
+.dropdownMenu {
+	display: none;
+	list-style: none;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 10px 5px 0 ;
+	position: absolute;
+	top: 15px;
+	left: 10px;
+	margin-top: 10px;
+	background-color: #000000;
+	line-height: 25px;
+}
+
+.dropdownMenu li {
+	display: block;
+}
+
+.menu-xs li:hover .dropdownMenu {
+	display: block;
+}
+
+.menu-xs a {
+	padding: 5px 0;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 700;
+	color: #ffffff;
+	line-height: 18px;
+	/* border-bottom: 5px solid #000000; */
+}
+
+
+.dropdownMenu a {
+	
+}
 }

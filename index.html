@@ -11,16 +11,30 @@
 			<nav class="navigation">
 				<h2 class="hide">Navbar</h2>
 				<div class="logo"></div>
-					<ul class="menu">
-					<li><a href="#home" class="navItem1">home</a></li>
-					<li><a href="#aboutUs" class="navItem2">about us</a></li>
-					<li><a href="#services" class="navItem3">services</a></li>
-					<li><a href="#ourProjects" class="navItem4">our projects</a></li>
-					<li><a href="#ourTeam" class="navItem5">our team</a></li>
-					<li><a href="#happyClients" class="navItem6">happy clients</a></li>
-					<li><a href="#price" class="navItem7">price</a></li>
-					<li><a href="#someFacts" class="navItem8">some facts</a></li>
-					<li><a href="#contactUs" class="navItem9">contact us</a></li>
+				<ul class="menu hide">
+					<li><a href="#home">home</a></li>
+					<li><a href="#aboutUs">about us</a></li>
+					<li><a href="#services">services</a></li>
+					<li><a href="#ourProjects">our projects</a></li>
+					<li><a href="#ourTeam">our team</a></li>
+					<li><a href="#happyClients">happy clients</a></li>
+					<li><a href="#price">price</a></li>
+					<li><a href="#someFacts">some facts</a></li>
+					<li><a href="#contactUs">contact us</a></li>
+				</ul>
+				<ul class="menu-xs">
+					<li><a href="#">Menu</a>
+						<ul class="dropdownMenu">
+							<li><a href="#aboutUs">about us</a></li>
+							<li><a href="#services">services</a></li>
+							<li><a href="#ourProjects">our projects</a></li>
+							<li><a href="#ourTeam">our team</a></li>
+							<li><a href="#happyClients">happy clients</a></li>
+							<li><a href="#price">price</a></li>
+							<li><a href="#someFacts">some facts</a></li>
+							<li><a href="#contactUs">contact us</a></li>
+						</ul>
+					</li>
 				</ul>
 			</nav>
 			<h1 class="jumboTextHeader">Design is about<br><span>Communication</span></h1>
@@ -38,9 +52,9 @@
 				<h2>About Us</h2>
 				<h3>Who we are?</h3>
 				<div class="aboutUsContent">
-					<div class="col-7 aboutUsText">
+					<div class="col-7 col-md-6 aboutUsText">
 						<p class="default_p14">Praesent metus urna, feugiat a placerat vel, elementum at leo. Quisque vel fermentum ipsum. Nulla at facilisis est, vel condimentum ligula. Mauris volutpat vitae risus sed pellentesque. Praesent fermentum neque ac tellus gravida, at varius sem accumsan. Nam porta erat id sapien consectetur. Fusce sed purus eros. Vivamus rhoncus, ipsum in tempus fermentum, orci leo facilisis purus. Nam porta erat id sapien consectetur. Fusce sed purus eros. Vivamus rhoncus, ipsum in tempus fermentum, orci leo facilisis purus.</p>
-						<button class="default_btn learMore">Learn more</button>
+						<button class="default_btn">Learn more</button>
 					</div>				
 					<img src="images/About_Us/video-img.png" alt="Video screenshot" class="aboutUs_img">
 				</div>			
@@ -48,32 +62,30 @@
 		</section>
 		<section id="services">
 			<div class="container">
-				<div class="services">
-					<h2>Services</h2>
-					<h3>Services that we provide</h3>
-					<ul class="servicesContent">
-						<li class="col-3 servicesContentItem">
-							<div class="servicesImg highQualityDesign"></div>
-							<h4>High quality design</h4>
-							<p>Praesent metus urna, feugiata placerat elementum</p>
-						</li>
-						<li class="col-3 servicesContentItem">
-							<div class="servicesImg modernDesign"></div>
-							<h4>Modern design</h4>
-							<p>Praesent metus urna, feugiata placerat elementum</p>
-						</li>
-						<li class="col-3 servicesContentItem">
-							<div class="servicesImg regularUpdates"></div>
-							<h4>Regular updates</h4>
-							<p>Praesent metus urna, feugiat a placerat elementum</p>
-						</li>
-						<li class="col-3 servicesContentItem">
-							<div class="servicesImg support"></div>
-							<h4>Fast and free support</h4>
-							<p>Praesent metus urna, feugiat a placerat elementum</p>
-						</li>
-					</ul>
-				</div>
+				<h2>Services</h2>
+				<h3>Services that we provide</h3>
+				<ul class="servicesContent">
+					<li class="col-3 col-sm-5 servicesContentItem">
+						<div class="servicesImg highQualityDesign"></div>
+						<h4>High quality design</h4>
+						<p>Praesent metus urna, feugiata placerat elementum</p>
+					</li>
+					<li class="col-3 col-sm-5 servicesContentItem">
+						<div class="servicesImg modernDesign"></div>
+						<h4>Modern design</h4>
+						<p>Praesent metus urna, feugiata placerat elementum</p>
+					</li>
+					<li class="col-3 col-sm-5 servicesContentItem">
+						<div class="servicesImg regularUpdates"></div>
+						<h4>Regular updates</h4>
+						<p>Praesent metus urna, feugiat a placerat elementum</p>
+					</li>
+					<li class="col-3 col-sm-5 servicesContentItem">
+						<div class="servicesImg support"></div>
+						<h4>Fast and free support</h4>
+						<p>Praesent metus urna, feugiat a placerat elementum</p>
+					</li>
+				</ul>
 			</div>
 		</section>
 		<section id="ourProjects">
@@ -379,7 +391,7 @@
 				<h2>some facts</h2>
 				<h3>about our work</h3>
 				<div class="someFactsBox">
-					<div class="col-3 someFactsBoxItem">
+					<div class="col-3 col-sm-5 someFactsBoxItem">
 						<div>
 							<h4>1000</h4>
 							<div class="dash"></div>
@@ -387,7 +399,7 @@
 						</div>
 						<p class="default_p14">Praesent metus urna, feugiat a placerat elementum at leo</p>
 					</div>
-					<div class="col-3 someFactsBoxItem">
+					<div class="col-3 col-sm-5 someFactsBoxItem">
 						<div>
 							<h4>900</h4>
 							<div class="dash"></div>
@@ -395,7 +407,7 @@
 						</div>
 						<p class="default_p14">Praesent metus urna, feugiat a placerat elementum at leo</p>
 					</div>
-					<div class="col-3 someFactsBoxItem">
+					<div class="col-3 col-sm-5 someFactsBoxItem">
 						<div>
 							<h4>500</h4>
 							<div class="dash"></div>
@@ -403,7 +415,7 @@
 						</div>
 						<p class="default_p14">Praesent metus urna, feugiat a placerat elementum at leo</p>
 					</div>
-					<div class="col-3 someFactsBoxItem">
+					<div class="col-3 col-sm-5 someFactsBoxItem">
 						<div>
 							<h4>100</h4>
 							<div class="dash"></div>
@@ -454,7 +466,7 @@
 			<h2>Contact Us</h2>
 			<h3>our agency located in Melbourne, Australia</h3>
 			<div class="container">
-				<form action="/action_page.php" class="col-6 contactUsForm">
+				<form action="/action_page.php" class="col-6 col-md-7 col-sm-9 contactUsForm">
 					<input type="text" placeholder="Name">
 					<input type="text" placeholder="Email">
 					<input type="text" placeholder="Subject">
@@ -466,7 +478,7 @@
 		<section id="map">
 			<h2 class="hide">MAP</h2>
 			<div class="container">
-				<address class="col-6 mapContentBox">
+				<address class="col-6 col-sm-7 mapContentBox">
 					<ul>
 						<li class="default_p14"><span><i class="far fa-envelope"></i></span>PO Box 16122 Collins Street West Victoria 8007 Australia</li>
 						<li class="default_p14"><span><i class="fas fa-map-marker-alt"></i></span>121 King Street, Melbourne Victoria 3000 Australia</li>
@@ -480,7 +492,7 @@
 		</section>
 		<footer id="footer">
 			<div class="container footer">
-				<div class="col-4 footerItem">
+				<div class="col-4 col-sm-10 footerItem">
 					<ul class="socialIconsFooter">
 						<li><button class="social_btn footer_btn"><i class="fab fa-twitter"></i></button></li>
 						<li><button class="social_btn footer_btn"><i class="fab fa-instagram"></i></button></li>
@@ -492,8 +504,8 @@
 					</ul>
 					<p class="default_p14">Awax © 2016</p>
 				</div>
-				<p class="col-4 default_p14 footerText">Nulla iaculis enim a magna tempor congue. Sed aliquam dignissim hendrerit. Duis erat nulla, pellentesque at enim in, scelerisque placerat nunc. Nulla vestibulum ex sed neque auctor rutrum. Donec fringilla tincidunt aliquet. Nullam rhoncus urna massa, vulputate congue velit pulvinar suscipit. Mauris laoreet blandit pharetra. Suspendisse rutrum dolor at augue convallis, eget dapibus nunc consequat. Sed diam nulla, elementum non laoreet eu,vulputate urna, at pellentesque risus orci in ante.</p>
-				<form action="/action_page.php" class="col-4 footerItem subscribeForm">
+				<p class="col-4 col-sm-5 default_p14 footerText">Nulla iaculis enim a magna tempor congue. Sed aliquam dignissim hendrerit. Duis erat nulla, pellentesque at enim in, scelerisque placerat nunc. Nulla vestibulum ex sed neque auctor rutrum. Donec fringilla tincidunt aliquet. Nullam rhoncus urna massa, vulputate congue velit pulvinar suscipit. Mauris laoreet blandit pharetra. Suspendisse rutrum dolor at augue convallis, eget dapibus nunc consequat. Sed diam nulla, elementum non laoreet eu,vulputate urna, at pellentesque risus orci in ante.</p>
+				<form action="/action_page.php" class="col-4 col-sm-5 footerItem subscribeForm">
 					<input type="text" placeholder="Email to subscribe">
 					<input type="submit" class="default_btn" value="subscribe">
 				</form>
