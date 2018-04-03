@@ -882,52 +882,41 @@ h4 {
     background-size: cover;
     position: relative;
     border-bottom: 1px solid #cfcfcf;
+    padding: 36px 0 37px;
 }
 
-.mapContent {
+.mapContentBox {
 	background-color: #ffffff;
-	margin-top: 36px;
-	margin-bottom: 37px;
-	margin-left: 15px;
-	padding-left: 40px;
-	padding-right: 122px;
-	padding-top: 90px;
-	padding-bottom: 59px;
+	padding: 54px 40px 45px;
+	margin: 0 15px;
 }
 
-.mapContent div:last-child {
-	margin-bottom: 0;
+.mapContentBox ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
-.mapContentItem {
+.mapContentBox li {
+	margin-bottom: 14px;
+	color: #7e7e7e;
+	font-size: 12px;
 	display: flex;
 	align-items: center;
-	margin-bottom: 14px;
 }
 
-
-.mapContentItem span {
+.mapContentBox span {
 	width: 35px;
 	height: 35px;
 	background-color: #aeaeae;
 	border-radius: 25px;
 	border: none;
-	margin: 0;
-	padding: 0;
-	cursor: pointer;
+	font-size: 20px;
 	color: #ffffff;
-	display: flex;
+	display: inline-flex;
 	justify-content: center;
 	align-items: center;
-}
-
-.mapContentItem p {
-	color: #7e7e7e;
-	font-size: 12px;
-	font-weight: 300;
-	line-height: 24px;
-	margin: 0;
-	margin-left: 17px;
+	margin-right: 17px;
 }
 
 .arrowIcon {
@@ -937,6 +926,7 @@ h4 {
 	left: 92px;
 	bottom: -32.5px;
 }
+
 
 /* ---- FOOTER ---- */
 
