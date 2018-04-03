@@ -702,7 +702,7 @@ h4 {
 #someFacts {
 	background-color: #000000;
 	color: #ffffff;
-	padding: 58px 0 81px;
+	padding: 58px 0 71px;
 }
 
 .someFactsBox {
@@ -757,90 +757,68 @@ h4 {
 	background-color: #fefefe;
 	border-top: 1px solid #cfcfcf;
 	border-bottom: 1px solid #cfcfcf;
-}
-
-.tellAboutUs {
-	height: 73px;
+	padding: 15px 0;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 }
 
-.tellAboutUs img {
+.shareIcon {
+	background-image: url(../images/Contact_Us/share-icon.png);
+	background-repeat: no-repeat;
 	width: 23px;
 	height: 25px;
-	margin-right: 15px;
+}
+
+#tellAboutUs h3 {
+	margin: 0 25px 0 15px;
 }
 
 .tellAboutUsSocialIcons {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
-	justify-content: space-between;
-	width: 425px;
-	margin-left: 63px;
-}
-
-.tellAboutUsSocialIconsElement {
-	display: flex;
-	align-items: center;
-}
-
-.tellAboutUsSocialIconsElement .social_btn {
+	justify-content: center;
 	margin: 0;
-	margin-right: 5px;
-	cursor: auto;
 }
 
-.twitter_btn {
+.tellAboutUsSocialIcons dt .social_btn {
+	margin:5px 5px 5px 38px;
+}
+
+.twitter_btn, .twitter_btn:hover {
 	background-color: #34c5f0;
 }
 
-.twitter_btn:hover {
-	background-color: #34c5f0;
-}
-
-.linkedin_btn {
+.linkedin_btn, .linkedin_btn:hover {
 	background-color: #127cb4;
 }
 
-.linkedin_btn:hover {
-	background-color: #127cb4;
-}
-
-.facebook_btn {
+.facebook_btn, .facebook_btn:hover {
 	background-color: #336297;
 }
 
-.facebook_btn:hover {
-	background-color: #336297;
-}
-
-.googleplus_btn {
+.googleplus_btn, .googleplus_btn:hover {
 	background-color: #e74237;
 }
 
-.googleplus_btn:hover {
-	background-color: #e74237;
-}
-
-.pinterest_btn {
+.pinterest_btn, .pinterest_btn:hover {
 	background-color: #b71c29;
 }
 
-.pinterest_btn:hover {
-	background-color: #b71c29;
-}
-
-
-.tellAboutUsSocialIcons p {
+.tellAboutUsSocialIcons dd {
 	margin: 0;
+}
+
+.tellAboutUsSocialIcons dd p {
 	color: #aeaeae;
 	font-size: 10px;
 	font-weight: 700;
-	line-height: 25px;
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
 }
+
 
 /* ---- CONTACT US ---- */
 
