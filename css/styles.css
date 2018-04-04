@@ -157,6 +157,10 @@ h4 {
 	align-items: center;
 }
 
+.menu-xs {
+	display: none;
+}
+
 .logo {
 	background-image: url(../images/Home/logo.png);
 	width: 50px;
@@ -528,7 +532,7 @@ h4 {
 }
 
 .happyClients p {
-	width: 45.5%;
+	/* swidth: 45.5%; */
 	color: #7e7e7e;
 	margin: 8px auto 45px;
 }
@@ -1005,7 +1009,6 @@ h4 {
 }
 
 
-
 @media(min-width: 992px) and (max-width: 1140px) {
 
 /* ------GRID------ */	
@@ -1021,6 +1024,13 @@ h4 {
 	.col-md-10 {width: 83.33%;}
 	.col-md-11 {width: 91.66%;}
 	.col-md-12 {width: 100%;}
+
+
+/* ------ HOME ------ */
+
+	.menu-xs {
+		display: none;
+	}
 
 /* ------ SERVICES ------ */	
 
@@ -1073,6 +1083,7 @@ h4 {
 
 }
 
+
 @media(min-width: 768px) and (max-width: 991px) {
 
 /* ------GRID------ */	
@@ -1090,6 +1101,10 @@ h4 {
 	.col-sm-12 {width: 100%;}
 
 /* ------HOME------ */	
+
+	.menu-xs {
+		display: none;
+	}
 
 	.navigation {
 		justify-content: space-around;
@@ -1135,9 +1150,9 @@ h4 {
 /* ------ SERVICES ------ */
 
 	.servicesContent {
-	flex-wrap: wrap;
-	justify-content: center;
-	margin-top: 32px;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 32px;
 	}
 
 	.servicesContentItem {
@@ -1170,7 +1185,7 @@ h4 {
 		margin: 0 30px;
 	}
 
-	.round_btn {
+	.arrowIcon {
 		width: 55px;
 		height: 55px;
 		bottom: -27.5px;
@@ -1212,6 +1227,7 @@ h4 {
 
 }
 
+
 @media(max-width: 767px) {
 
 /* ------GRID------ */	
@@ -1230,67 +1246,268 @@ h4 {
 
 /* ------HOME------ */	
 
-.menu {
-	display: none;
-}
+	.menu {
+		display: none;
+	}
 
-.navigation {
-	justify-content: space-between;
-	padding: 0 100px 0 30px;
-}
+	.navigation {
+		justify-content: space-between;
+		padding: 0 10px 0 30px;
+	}
 
-.logo {
-	margin: 5px 0;
-}
+	.logo {
+		margin: 5px 0;
+	}
 
-.menu-xs, .menu-xs li {
-	list-style: none;
-	padding: 0;
-	margin:0;
-	color: #ffffff;
-	text-decoration: none;
-}
+	.menu-xs {
+		display: block;
+		list-style: none;
+		padding: 0;
+		margin:0;
+		color: #ffffff;
+		text-decoration: none;
+		width: 130px;
+		text-align: center;
+		position: relative;
+	}
 
-.menu-xs li {
-	display: inline-block;
-	transition-duration: 1000ms;
-	position: relative;
-}
+	.menuOption-xs {
+		display: inline-block;
+	}
 
-.dropdownMenu {
-	display: none;
-	list-style: none;
-	color: #ffffff;
-	text-decoration: none;
-	padding: 10px 5px 0 ;
-	position: absolute;
-	top: 15px;
-	left: 10px;
-	margin-top: 10px;
-	background-color: #000000;
-	line-height: 25px;
-}
+	.dropdownMenu {
+		display: none;
+		list-style: none;
+		color: #ffffff;
+		text-decoration: none;
+		padding: 0 ;
+		position: absolute;
+		top: 59px;
+		left: 0;
+		background-color: #000000;
+		line-height: 25px;
+		width: 130px;	
+	}
 
-.dropdownMenu li {
-	display: block;
-}
+	.menuOption-xs:hover .dropdownMenu {
+		display: block;
+	}
 
-.menu-xs li:hover .dropdownMenu {
-	display: block;
-}
+	.dropdownMenu li {
+		transition-duration: 500ms;
+	}
 
-.menu-xs a {
-	padding: 5px 0;
-	text-decoration: none;
-	font-size: 14px;
-	font-weight: 700;
-	color: #ffffff;
-	line-height: 18px;
-	/* border-bottom: 5px solid #000000; */
-}
+	.dropdownMenu li:hover{
+		background-color: #b88b58;
+	}
+	.menu-xs a {
+		padding: 21px 0;
+		text-decoration: none;
+		font-size: 14px;
+		font-weight: 700;
+		color: #ffffff;
+		line-height: 18px;
+		display: block;
+	}
 
+	.dropdownMenu a {
+		padding: 5px;
+	}
 
-.dropdownMenu a {
+	.jumboTextHeader {
+		font-size: 33px;
+		line-height: 57px;
+	}
+
+	.jumboTextCall {
+		font-size: 21px;
+	}
+
+	.telephone {
+		right: 40px;
+	}
+
+/* ------ ABOUT US ------ */	
+
+	.aboutUsContent {
+		justify-content: center;
+		flex-wrap: wrap-reverse;
+		margin-top: 15px;
+	}
 	
-}
+	.aboutUsText {
+		padding: 0;
+		text-align: justify;
+	}
+	
+	.aboutUsText button {
+		margin:15px auto 0;
+	}
+
+	.aboutUs_img {
+		transform: scale(0.7, 0.7);
+		-ms-transform: scale(0.7, 0.7);
+		-webkit-transform: scale(0.7, 0.7);
+		margin-bottom: 25px;
+	}
+
+/* ------ SERVICES ------ */
+
+	.servicesContent {
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 32px;
+	}
+
+	.servicesContentItem {
+		margin: 10px 0;
+		padding: 9px 10px 18px;
+		justify-content: space-between;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 260px;
+	}
+	
+	.servicesContentItem h4 {
+		padding: 0;
+	}
+
+	.servicesContent li:nth-child(3) {
+		border-left: 2px solid #383838;
+	}
+
+/* ------ OUR PROJECTS ------ */
+
+	.ourProjectsMenu {
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+	}
+
+	.ourProjectsMenuItem {
+		line-height: 40px;
+		display: block;
+		text-align: center;
+		border:none;
+	}
+
+	.ourProjectsMenu a {
+		padding: 10px 0;
+		font-size: 12px;
+		font-weight: 300;
+	}
+
+/* ------ OUR TEAM ------ */
+
+	.ourTeamItem {
+		padding: 43px 30px;
+	}
+
+/* ---- PREMIUM ---- */
+
+	.premiumBox_img {
+		transform: scale(0.7, 0.7);
+		-ms-transform: scale(0.7, 0.7);
+		-webkit-transform: scale(0.7, 0.7);
+		}
+
+	.premiumBoxContentItemText {
+		margin-left: 64px;
+	}
+
+	.premiumBoxContentItem {
+		margin: 15px 0 0;
+	}
+
+/* ------ SOME FACTS ------ */
+
+	#someFacts {
+		padding: 58px 0 61px;
+	}
+
+	.someFactsBox {
+		margin-top: 37px;
+	}
+
+	.someFactsBoxItem {
+		margin: 20px 10px;
+		padding: 0 3%;
+	}
+
+/* ------ CONTACT US ------ */
+
+	.contactUsForm {
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+
+	.contactUsForm input:nth-child(1), .contactUsForm input:nth-child(2), .contactUsForm input:nth-child(3) {
+		margin: 46px 0 0;
+		flex: none;
+	}
+
+/* ------ MAP ------ */
+
+	.mapContentBox {
+		margin: 0 auto;
+		padding: 25px 5px;
+	}
+
+	.mapContentBox li {
+		line-height: 20px;
+		font-size: 9px;
+	}
+
+	.mapContentBox span {
+		width: 25px;
+		height: 25px;
+		font-size: 14px;
+	}
+
+	.arrowIcon {
+		width: 55px;
+		height: 55px;
+		bottom: -27.5px;
+		background-position: 11px 16px;
+		left: 30px;
+	}
+
+
+/* ------ FOOTER ------ */
+
+	#footer {
+		padding: 32px 0 10px;
+	}
+
+	.footer {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.footerText {
+		text-align: justify;
+		order: 0;
+	}
+
+	.subscribeForm {
+		order: 1;
+		padding: 40px 46px;
+	}
+
+	.footer div:first-child {
+		order: 2;
+		margin: 15px 30px;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.socialIconsFooter {
+		margin-bottom: 10px;
+	}
+
+	.footerItem {
+		justify-content: center;
+	}
+
 }
