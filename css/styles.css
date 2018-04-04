@@ -177,7 +177,7 @@ h4 {
 }
 
 .menu a {
-	padding: 40px 7.5px 35px;
+	padding: 40px 7.5px 34px;
 	text-decoration: none;
 	font-size: 14px;
 	font-weight: 700;
@@ -986,6 +986,7 @@ h4 {
 	border-radius: 5px;
 	padding: 51px 65px 46px;
 	margin: 3px 15px 0;
+	justify-content: center;
 }
 
 .subscribeForm input[type=text] {
